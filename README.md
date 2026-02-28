@@ -1,4 +1,6 @@
 # Thesis
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Model%20%26%20Data-FFD21E?style=flat&logoColor=white)](https://huggingface.co/mimirmimir)
+
 * [Colab (Pi0)](https://colab.research.google.com/drive/1BVCzvt2PfhSahik43obpyKKV_AB7xxAZ)
 * [Colab (Diffusion Policy)](https://colab.research.google.com/drive/1Y7WWHbDcby_Tj6Lr2pvNwursgn2f9B1A)
 * [Colab (RDT-1B)](https://colab.research.google.com/drive/1dT5BuTBwXS1d3Sf5lcwipcJDJLhjJFDz)
