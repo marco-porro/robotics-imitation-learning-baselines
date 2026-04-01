@@ -22,6 +22,8 @@ The project is organized into the main `scripts/` directory, which contains the 
   * **`eval exp/`** (Ablation studies and experiments):
     * Contains alternative evaluation loops used to introduce disturbances and to conduct extra experiments.
 
+Inside each subfolder is present an additional readme file that details how to use each code.
+
 ## 🛠️ Prerequisites
 
 Before running any notebook, ensure you have:
@@ -58,10 +60,12 @@ Open your chosen model's notebook (e.g., `smolvla.ipynb` or `rdt1b.ipynb`) in Go
 2. **Authentication**: Execute the initial setup cells. You will be prompted to enter your W&B API key and Hugging Face token. *(For RDT-1B, you must also authorize access to Google Drive).*
 3. **Execution**: Run the cells sequentially. The script will autonomously install dependencies, register customized simulation environments, download the processed dataset, execute the training loop, and finally perform an evaluation, saving demonstration videos in MP4 format.
 
+Additional information on how to use these utils scripts are provided in the readme of the respective folder.
+
 ### Phase 3: Ablation Studies and Extra Experiments
 To test the trained policies in different scenarios or reproduce the ablation studies presented in the thesis:
 * Navigate to the **`eval exp/`** folder.
-* Use the scripts provided to launch alternative evaluation loops.
+* Use the scripts provided to launch alternative evaluation loops, in which you can introduce gaussian noise and random occlusions to the observations.
 * Simply load the weights (checkpoints) of the models you previously trained and saved to observe their behavior under the new experimental conditions.
 
 ## ⚙️ Customizing the Execution
