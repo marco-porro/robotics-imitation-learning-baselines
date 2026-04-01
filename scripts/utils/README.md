@@ -4,7 +4,7 @@ This directory contains the utility scripts requisite for preprocessing the data
 
 ---
 
-## 1. Dataset Generation: `k_dataset.ipynb`
+## Dataset Generation: `k_dataset.ipynb`
 
 This notebook serves as the foundational component of the data preparation pipeline. It is responsible for acquiring the base trajectories, synthesizing visual demonstrations via motion planning algorithms, and formatting the data to adhere to the LeRobot framework specifications.
 
@@ -43,7 +43,7 @@ At the end of the notebook, there are optional **CHECK** cells. It is highly rec
 
 ---
 
-## 2. Language Embeddings Preparation: `k_embeddings.ipynb`
+## Language Embeddings Preparation: `k_embeddings.ipynb`
 
 This notebook is a specialized script dedicated exclusively to the pre-computation of language embeddings, a strict computational prerequisite for the **RDT-1B** (Robotics Diffusion Transformer) model architecture.
 
