@@ -2,7 +2,7 @@
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Model%20%26%20Data-FFD21E?style=flat&logoColor=white)](https://huggingface.co/mimirmimir) [![Thesis PDF](https://img.shields.io/badge/%F0%9F%93%9C%20Thesis-2ea44f?style=flat)](thesis.pdf)
 [![Diffusion Policy](https://img.shields.io/badge/Diffusion%20Policy-525252?logo=googlecolab)](https://colab.research.google.com/drive/1Y7WWHbDcby_Tj6Lr2pvNwursgn2f9B1A) [![SmolVLA](https://img.shields.io/badge/SmolVLA-525252?logo=googlecolab)](https://colab.research.google.com/drive/1wf0hqzjLR6yL-vlTbdkqXctZP2GqUC3R) [![Pi0](https://img.shields.io/badge/Pi0-525252?logo=googlecolab)](https://colab.research.google.com/drive/1BVCzvt2PfhSahik43obpyKKV_AB7xxAZ) [![RDT-1B](https://img.shields.io/badge/RDT--1B-525252?logo=googlecolab)](https://colab.research.google.com/drive/1dT5BuTBwXS1d3Sf5lcwipcJDJLhjJFDz)
 
-This repository provides standalone Jupyter Notebooks and utility scripts to set up, train, and evaluate different Imitation Learning and Vision-Language-Action (VLA) models for robotic manipulation on the [ManiSkill 3 simulation environment](https://github.com/haosulab/ManiSkill).
+This repository provides standalone Jupyter Notebooks and utility scripts to set up, train, and evaluate different Imitation Learning and Vision-Language-Action (VLA) models for robotic manipulation on the [ManiSkill 3](https://github.com/haosulab/ManiSkill) simulation environment.
 These scripts are designed to be run on Google Colab (or a similar Jupyter environment with GPU support) and serve as a practical working pipeline for future students and researchers working on robotic manipulation.
 
 ## 📁 Repository Structure
