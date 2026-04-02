@@ -10,10 +10,10 @@ These scripts are designed to be run on Google Colab (or a similar Jupyter envir
 The project is organized into the main `scripts/` directory, which contains the core training pipelines and supplementary folders for data processing and extra experiments:
 
 * **`scripts/`**:
-  * `dp_84.ipynb` and `dp_224.ipynb`: Pipelines for Diffusion Policy (different resolutions).
-  * `pi0.ipynb`: Pipeline for Physical Intelligence Zero (Pi0).
-  * `rdt1b.ipynb`: Pipeline for Robotics Diffusion Transformer (RDT-1B).
-  * `smolvla.ipynb`: Pipeline for SmolVLA.
+  * `dp_84.ipynb` and `dp_224.ipynb`: Pipelines for [Diffusion Policy](https://github.com/real-stanford/diffusion_policy) (different resolutions).
+  * `pi0.ipynb`: Pipeline for Physical Intelligence Zero ([Pi0](https://github.com/Physical-Intelligence/openpi)).
+  * `rdt1b.ipynb`: Pipeline for Robotics Diffusion Transformer ([RDT-1B](https://github.com/thu-ml/RoboticsDiffusionTransformer)).
+  * `smolvla.ipynb`: Pipeline for [SmolVLA](https://github.com/huggingface/lerobot).
   
   * **`utils/`** (Data preparation and processing scripts):
     * `k_dataset.ipynb`: Used to generate the original demonstrations, create the dataset, and convert it into the required training formats.
