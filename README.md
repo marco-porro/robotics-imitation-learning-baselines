@@ -31,16 +31,6 @@ Before running any notebook, ensure you have:
 2.  **Hugging Face Account**: A Write-access Token is required to download datasets and upload model weights.
 3.  **Weights & Biases (W&B)**: Necessary for monitoring and tracking metrics during training.
 
-## 📚 Resources & Acknowledgements
-
-The training pipelines for **Diffusion Policy**, **SmolVLA**, and **Pi0** in this repository are built heavily upon the [LeRobot](https://github.com/huggingface/lerobot) framework by Hugging Face. 
-
-For deeper insights into the specific model architectures and their original implementations, please refer to the official repositories:
-
-* **Diffusion Policy** by Real Stanford: [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy)
-* **Pi0** by Physical Intelligence (OpenPI): [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi)
-* **RDT-1B** by THU-ML (Robotics Diffusion Transformer): [thu-ml/RoboticsDiffusionTransformer](https://github.com/thu-ml/RoboticsDiffusionTransformer)
-
 ---
 
 ## 🚀 How to Run the Pipelines (Step-by-Step)
@@ -82,3 +72,15 @@ Broadly speaking, the primary elements that can be practically customized includ
 * **Training Metrics**: Tracked live via the W&B link generated in the Colab output.
 * **Model Checkpoints**: Saved in the `outputs/` folder in Colab and automatically pushed to your Hugging Face Hub.
 * **Videos**: Standard evaluation `.mp4` files are saved in the Colab file explorer (usually under `eval_videos/` or `episodes/`).
+
+---
+
+## 📚 Resources & Acknowledgements
+
+The training pipelines for **Diffusion Policy**, **SmolVLA**, and **Pi0** in this repository are built heavily upon the [LeRobot](https://github.com/huggingface/lerobot) framework by Hugging Face. 
+
+For deeper insights into the specific model architectures and their original implementations, please refer to the official repositories:
+
+* **Diffusion Policy** by Real Stanford: [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy)
+* **Pi0** by Physical Intelligence (OpenPI): [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi)
+* **RDT-1B** by THU-ML (Robotics Diffusion Transformer): [thu-ml/RoboticsDiffusionTransformer](https://github.com/thu-ml/RoboticsDiffusionTransformer)
